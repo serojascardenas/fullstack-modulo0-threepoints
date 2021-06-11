@@ -1,0 +1,22 @@
+{
+  "name": "modulo0",
+  "version": "1.0.0",
+  "description": "Modulo 0 - Curso Nivelador",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serojascardenas/fullstack-modulo0-threepoints.git"
+  },
+  "author": "Sonia Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serojascardenas/fullstack-modulo0-threepoints/issues"
+  },
+  "homepage": "https://github.com/serojascardenas/fullstack-modulo0-threepoints#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
