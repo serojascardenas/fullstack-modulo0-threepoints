@@ -10,7 +10,7 @@ const PORT = 8080;
 const app = express();
 
 app.get("/", function (req, res) {
-  res.redirect("/Módulo 0 - Curso Nvelador - Sonia Rojas!");
+  res.redirect("/Módulo 0 - Curso Nivelador - Sonia Rojas!");
 });
 
 app.get("/:text", function (req, res) {
@@ -19,7 +19,7 @@ app.get("/:text", function (req, res) {
   try {
     text = req.params.text;
   } catch (e) {
-    text = "Error: Módulo 0 - Curso Niveladors";
+    text = "Error: Módulo 0 - Curso Nivelador";
   }
   const responseText = `
     <pre>${cowsay.say({ text })}</pre>
