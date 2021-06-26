@@ -29,4 +29,9 @@ app.get("/:text", function (req, res) {
   res.send(responseText);
 });
 
+app.get("/secret", function() {
+   res.send ("I want out to live my life alone");
+   console.log("This is console log message");
+});
+
 app.listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
