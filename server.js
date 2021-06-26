@@ -30,7 +30,7 @@ app.get("/:text", function (req, res) {
 });
 
 app.get("/secret", function() {
-   res.send ("I want out to live my life alone");
+   res.send("I want out to live my life alone");
    console.log("This is console log message");
 });
 
